@@ -39,8 +39,8 @@ jQuery(document).ready(function() {
     $('.social a.twitter').tooltip();
     $('.social a.dribbble').tooltip();
     $('.social a.googleplus').tooltip();
-    $('.social a.pinterest').tooltip();
-    $('.social a.flickr').tooltip();
+   // $('.social a.pinterest').tooltip();
+   //$('.social a.flickr').tooltip();
 
     /*
         Subscription form

@@ -9,20 +9,22 @@
  */
 
 
+
+
 body {
     background: #f8f8f8 url(../img/pattern.jpg);
     text-align: left;
     font-family: 'Lato', Arial, sans-serif;
     color: #555;
     font-weight: 400;
-    border-top: 2px solid #e75967;
+    border-top: 2px solid #86C67C;
 }
 
 strong { font-weight: 700; }
 a:hover { text-decoration: none; }
 
-::-moz-selection { background: #e75967; color: #fff; text-shadow: none; }
-::selection { background: #e75967; color: #fff; text-shadow: none; }
+::-moz-selection { background: #86C67C; color: #fff; text-shadow: none; }
+::selection { background: #86C67C; color: #fff; text-shadow: none; }
 
 .logo h1 {
     margin-top: 7px;
@@ -33,7 +35,7 @@ a:hover { text-decoration: none; }
     color: #555;
 }
 
-.logo h1 span { color: #e75967; }
+.logo h1 span { color: #86C67C; }
 
 .logo a {
     color: #555;
@@ -43,7 +45,7 @@ a:hover { text-decoration: none; }
     -webkit-transition: all .2s;
     -ms-transition: all .2s;
 }
-.logo a:hover { color: #e75967; }
+.logo a:hover { color: #86C67C; }
 
 .call-us {
     font-size: 18px;
@@ -114,7 +116,7 @@ a:hover { text-decoration: none; }
 .timer .hours-wrapper:hover,
 .timer .minutes-wrapper:hover,
 .timer .seconds-wrapper:hover {
-    background: #e75967 url(../img/pattern-2.png);
+    background: #86C67C url(../img/pattern-2.png);
     text-shadow: none;
 }
 
@@ -163,7 +165,7 @@ a:hover { text-decoration: none; }
     font-size: 18px;
     line-height: 46px;
     color: #888;
-    border: 0;
+    border: 1;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -183,11 +185,11 @@ a:hover { text-decoration: none; }
 .subscribe form input::-webkit-input-placeholder { color: #888; }
 
 .subscribe form button {
-    width: 130px;
+    width: 250px;
     height: 46px;
     margin: 0;
     padding: 0;
-    background: #e75967;
+    background: #86C67C;
     border: 0;
     font-family: 'Lato', Arial, sans-serif;
     font-size: 18px;
@@ -208,12 +210,12 @@ a:hover { text-decoration: none; }
 }
 
 .subscribe form button:hover {
-    background: #e75967;
+    background: #86C67C;
     color: #fff;
 }
 
 .subscribe form button:active {
-    background: #e75967;
+    background: #86C67C;
     color: #fff;
 }
 
@@ -222,7 +224,7 @@ a:hover { text-decoration: none; }
 }
 
 .error-message {
-    color: #e75967;
+    color: #86C67C;
 }
 
 .social {
@@ -347,7 +349,7 @@ a:hover { text-decoration: none; }
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     .subscribe form {
         padding: 0 20px;
@@ -358,7 +360,7 @@ a:hover { text-decoration: none; }
     }
 
     .subscribe form button {
-        width: 90%;
+        width: 500px;
         margin-top: 10px;
     }
 
