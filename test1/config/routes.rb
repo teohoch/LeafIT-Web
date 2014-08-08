@@ -5,7 +5,10 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+  match '/newsubscriber' => 'primary#new_subscriber', via: [:get, :post], :as => :new_subscriber
   root 'primary#home'
+  
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

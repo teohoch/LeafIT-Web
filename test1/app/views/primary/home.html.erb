@@ -29,7 +29,7 @@
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
     </head>
-
+		
     <body>
 
         <!-- Header -->
@@ -79,17 +79,26 @@
         <div class="container">
             <div class="row">
                 <div class="span12 subscribe">
-                    <h3>¡Suscribete para obtener noticias!</h3>
-                    <p>Suscribete </p>
-                    <form class="form-inline" action="assets/sendmail.php" method="post">
-						<div class="form-group">
-							<input type="text" name="Nombre" placeholder="Ingrese su Nombre....">							
-							<input type="text" name="email" placeholder="Ingrese su E-mail...">
-							<button type="submit" class="btn">Subscribe</button>
-						</div>
-						</br>						
-                        <button type="fbsubmit" class="btn">Suscribete por Facebook</button>
-                    </form>
+                    
+                    <% if flash[:notice] %>
+						<h3 class="flash-notice"><%= flash[:notice] %></h3>
+					<% else %>
+						<h3>¡Suscribete para obtener noticias!</h3>
+						<p>Suscribete </p>
+						
+						<% if flash[:error] %>
+							<p style="color:red;"><%= flash[:error] %></p>											
+						<% end %>
+						
+						
+						<%= form_tag(:new_subscriber, :method=>'post') do %>
+							<%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
+							<%= email_field_tag 'email', nil, placeholder: 'Ingrese su E-mail....' %>
+							<%= button_tag 'Subscribirse'%>							
+						<% end %>
+					<% end %>                 	
+									
+                    
                     <div class="success-message"></div>
                     <div class="error-message"></div>
                 </div>
@@ -97,8 +106,7 @@
             <div class="row">
                 <div class="span12 social">
                     <a href="" class="facebook" rel="tooltip" data-placement="top" data-original-title="Facebook"></a>
-                    <a href="" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>                
-                    <a href="" class="googleplus" rel="tooltip" data-placement="top" data-original-title="Google Plus"></a>                    
+                    <a href="" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>                  
                 </div>
             </div>
         </div>
