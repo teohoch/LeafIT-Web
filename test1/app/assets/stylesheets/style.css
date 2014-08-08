@@ -86,10 +86,10 @@ a:hover { text-decoration: none; }
 
 .coming-soon p {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 36px;
-    color: #555;
-    text-shadow: 0 1px 7px rgba(0,0,0,15);
+    color: #86C600;
+    text-shadow: 0 1px 7px rgba(0,0,0,90);
 }
 
 .timer {
