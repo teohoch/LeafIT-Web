@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Landing</title>
+  <title>LeafIT: <%= yield(:title) %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
+<div class="container">
+  <%if notice%>
+      <p class="notice"><%= notice %></p>
+  <%elsif alert%>
+      <p class="alert"><%= alert %></p>
+  <%end%>
+</div>
+
+<body style="background-color: #D4D5D5;">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="logo span4">
+            <%= image_tag("Seeds.png", size: "100x60") %>
+          </div>
+          <ul class="nav">
+                <li><a>Bienvenido</a></li>
+                </ul>
+                <ul class="nav pull-right">
+                  <li><a class="dropdown-toggle" id="dLabel" role="button"     data-toggle="dropdown" data-target="#"> Menu
+                    <b class="caret"></b>
+                  </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <li><a tabindex="1">Su grupo: </a></li>
+                        <li><a tabindex="2">hjghjgf</a></li>
+                        <li><a tabindex="-1">BYE</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 <%= yield %>
 
 </body>

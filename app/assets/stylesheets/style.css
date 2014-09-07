@@ -18,6 +18,7 @@ body {
     color: #555;
     font-weight: 400;
     border-top: 2px solid #86C67C;
+    padding-top: 60px;
 }
 
 strong { font-weight: 700; }

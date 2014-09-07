@@ -49,6 +49,10 @@ a:hover { text-decoration: none; }
     -ms-transition: all .2s;
 }
 .logo a:hover { color: #86C67C; }
+.logo{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 .call-us {
     font-size: 18px;
@@ -72,7 +76,7 @@ a:hover { text-decoration: none; }
 }
 
 .inner-bg {
-    padding: 55px 0 60px 0;
+    padding: 10px 0 60px 0;
     background: image-url("pattern-3.png");
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
