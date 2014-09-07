@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2712343927">
+    <data-source source="LOCAL" name="Rails Landing: development" uuid="1abf1d7a-48ad-434c-9c15-48d5535ee7f5">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/Landing_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe9dfcbdfd8dfc6df84dff9dfcbdfcddfcbdfc4</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Landing: test" uuid="b34b85ed-ca39-40b2-98a1-e6f6aa5208e1">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/Landing_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfe9dfcbdfd8dfc6df84dff9dfcbdfcddfcbdfc4</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Landing: production" uuid="91b631f5-c43f-4062-86aa-4bca113a4fd2">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://107.170.118.125:3306/leafitdb</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfebdff8dfe3dfefdfe6</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
