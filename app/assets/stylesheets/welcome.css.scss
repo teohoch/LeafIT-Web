@@ -76,7 +76,7 @@ a:hover { text-decoration: none; }
 }
 
 .inner-bg {
-    padding: 10px 0 60px 0;
+    padding: 10px 0 10px 0;
     background: image-url("pattern-3.png");
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
@@ -100,7 +100,7 @@ a:hover { text-decoration: none; }
 }
 
 .timer {
-    margin-top: 40px;
+    margin-top: 20px;
     text-shadow: 0 1px 5px rgba(0,0,0,.1);
 }
 
@@ -112,7 +112,7 @@ a:hover { text-decoration: none; }
     width: 160px;
     height: 140px;
     margin: 0 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     background: #2d2d2d; 
     background: rgba(45,45,45,.7);
     font-size: 18px;
@@ -237,7 +237,7 @@ a:hover { text-decoration: none; }
 }
 
 .social {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -358,7 +358,7 @@ a:hover { text-decoration: none; }
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
     .subscribe form {
         padding: 0 20px;
