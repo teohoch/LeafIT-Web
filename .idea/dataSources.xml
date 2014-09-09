@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4166420933">
-    <data-source source="LOCAL" name="Rails Landing: development" uuid="d6238978-d9ce-449c-b8e8-8a0875fc1712">
+  <component name="DataSourceManagerImpl" format="xml" hash="3636229543">
+    <data-source source="LOCAL" name="Rails temp: development" uuid="d25aecad-dc7f-41a0-8c37-52893fddea3b">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/Landing_development</jdbc-url>
@@ -9,7 +9,7 @@
       <user-password>dfe9dfcbdfd8dfc6df84dff9dfcbdfcddfcbdfc4</user-password>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Landing: test" uuid="b3e8869d-dd13-4e5d-bce4-bb1501c1738c">
+    <data-source source="LOCAL" name="Rails temp: test" uuid="ed12948a-3b6d-435e-aac1-5eabf87725b6">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/Landing_test</jdbc-url>
@@ -17,7 +17,7 @@
       <user-password>dfe9dfcbdfd8dfc6df84dff9dfcbdfcddfcbdfc4</user-password>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Landing: production" uuid="6572745e-5f1d-4ddb-8fc9-27ac0fdbfb06">
+    <data-source source="LOCAL" name="Rails temp: production" uuid="f9f063c4-8910-4356-bdd1-a723a4d50484">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/leafitdb</jdbc-url>

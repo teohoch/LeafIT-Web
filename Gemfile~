@@ -41,5 +41,4 @@ gem 'spring',        group: :development
 
 gem 'email_validator'
 gem 'bootstrap-sass'
-
 gem 'autoprefixer-rails'

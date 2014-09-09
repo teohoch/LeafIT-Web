@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails Landing: development" uuid="d6238978-d9ce-449c-b8e8-8a0875fc1712">
+  <data-source source="LOCAL" name="Rails temp: development" uuid="d25aecad-dc7f-41a0-8c37-52893fddea3b">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -1998,7 +1998,7 @@
       <column name="TOTAL_CONNECTIONS" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails Landing: test" uuid="b3e8869d-dd13-4e5d-bce4-bb1501c1738c">
+  <data-source source="LOCAL" name="Rails temp: test" uuid="ed12948a-3b6d-435e-aac1-5eabf87725b6">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -3996,7 +3996,7 @@
       <column name="TOTAL_CONNECTIONS" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails Landing: production" uuid="6572745e-5f1d-4ddb-8fc9-27ac0fdbfb06">
+  <data-source source="LOCAL" name="Rails temp: production" uuid="f9f063c4-8910-4356-bdd1-a723a4d50484">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>

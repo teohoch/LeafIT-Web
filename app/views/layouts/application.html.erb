@@ -16,32 +16,11 @@
 </div>
 
 <body style="background-color: #D4D5D5;">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <div class="logo span4">
-          <%= link_to "/" do %>
-          <%= image_tag("Seeds.png", size: "60x30") %>
-          <% end %>
-            
-          </div>
-          <ul class="nav">
-                <li><a>Bienvenido</a></li>
-                </ul>
-                <ul class="nav pull-right">
-                  <li><a class="dropdown-toggle" id="dLabel" role="button"     data-toggle="dropdown" data-target="#"> Menu
-                    <b class="caret"></b>
-                  </a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                        <li><a tabindex="1">Su grupo: </a></li>
-                        <li><a tabindex="2">hjghjgf</a></li>
-                        <li><a tabindex="-1">BYE</a></li>
-                    </ul>
-                  </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li class="<%= 'active' if params[:controller] == 'welcome' %>"><a href="/"><%= image_tag "Seeds.png",{size: "60x30"} %></a></li>
+      <li class="<%= 'active' if params[:controller] == 'us' %>"><a href="#">Sobre Nosotros</a></li>
+      <li class="<%= 'active' if params[:controller] == 'project' %>"><a href="#">Proyecto Seeds</a></li>
+    </ul>
 <%= yield %>
 
 </body>
