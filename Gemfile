@@ -43,3 +43,4 @@ gem 'email_validator'
 
 gem 'twitter-bootstrap-rails'
 gem "less-rails"
+gem 'tabulous'

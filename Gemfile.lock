@@ -36,6 +36,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.1)
+    colored (1.2)
     commonjs (0.2.7)
     email_validator (1.4.0)
       activemodel
@@ -108,6 +109,9 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    tabulous (2.1.1)
+      colored (~> 1.2.0)
+      rails (>= 3.0, < 4.2.0)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -145,6 +149,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
+  tabulous
   therubyracer
   turbolinks
   twitter-bootstrap-rails
