@@ -1,2 +1,58 @@
-<h1>News#show</h1>
-<p>Find me in app/views/news/show.html.erb</p>
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <% content_for :title, "Noticias" %>
+</head>
+<body>
+
+ <div class="container">
+   <div class="row">
+     <div class="col-xs-12">
+       <h1>Noticias</h1>
+       <h3>Aqui encontraras las ultimas noticias y apariciones en la prensa de LeafIT</h3>
+     </div>
+   </div>
+
+   <hr/>
+
+   <div class="row info">
+     <div class="col-sm-2">
+       <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1">
+        <%= image_tag('news/mercurio1.jpg',{:class => 'img-responsive'}) %>
+       </a>
+     </div>
+     <div class="col-sm-10">
+       <h2>Reportaje en El Mercurio de Santiago </h2>
+       <p><i>Viernes 8 de Agosto 2014</i></p>
+
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem consequuntur cupiditate debitis,
+         dignissimos dolore eligendi fugiat harum inventore laudantium maiores nisi numquam placeat porro quam quod sunt
+         veritatis vero.</p>
+     </div>
+   </div>
+   <hr/>
+   <div class="row info">
+     <div class="col-sm-2 v-center">
+       <a href="<%= @nota %>">
+         <%= image_tag(@scrap.images.first,{:class => 'img-responsive'}) %>
+       </a>
+     </div>
+     <div class="col-sm-10">
+       <h2>Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h2>
+       <p><i>Miercoles 30 de Julio 2014</i></p>
+
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem consequuntur cupiditate debitis,
+         dignissimos dolore eligendi fugiat harum inventore laudantium maiores nisi numquam placeat porro quam quod sunt
+         veritatis vero.</p>
+     </div>
+   </div>
+   <hr/>
+
+   <hr/>
+ </div>
+
+
+
+</body>
+</html>

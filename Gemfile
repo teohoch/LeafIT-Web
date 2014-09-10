@@ -43,3 +43,9 @@ gem 'email_validator'
 gem 'bootstrap-sass'
 
 gem 'autoprefixer-rails'
+gem 'grabbit'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
