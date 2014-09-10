@@ -1,6 +1,7 @@
 class NewsController < ApplicationController
   def show
-    @nota = 'http://www.comunicaciones.usm.cl/2014/07/30/estudiantes-usm-desarrollan-aplicacion-movil-que-facilita-el-cuidado-de-plantas-y-vegetales/'
+    @mercurio = 'http://goo.gl/cL7J7O'
+    @nota = 'http://goo.gl/KIvjtu'
     @scrap = Grabbit.url(@nota)
   end
 end

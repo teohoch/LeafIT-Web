@@ -45,6 +45,8 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'grabbit'
 
+gem 'social-share-button'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'

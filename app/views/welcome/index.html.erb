@@ -75,12 +75,7 @@
           <% end %>
       <% end %>
 
-      <%= link_to image_tag('share.png'), 'https://www.facebook.com/dialog/feed?
-  app_id=145634995501895
-  &display=popup&caption=An%20example%20caption 
-  &link=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F
-  &redirect_uri=https://developers.facebook.com/tools/explorer
-', :target => :blank %>
+      <%= social_share_button_tag("Seeds Sign up!") %>
 
 
       <div class="success-message"></div>

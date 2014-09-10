@@ -13,7 +13,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   match '/newsubscriber' => 'welcome#new_subscriber', via: [:get, :post], :as => :new_subscriber
+
+  resources :welcome, only: [:index]
   root 'welcome#index'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
