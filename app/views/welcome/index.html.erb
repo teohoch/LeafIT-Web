@@ -2,107 +2,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <% content_for :title, "¡Inscribete para noticias!" %>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+  <meta charset="utf-8">
+  <% content_for :title, "¡Inscribete para noticias!" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
-<!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
-<!--        <link rel="stylesheet" href="assets/css/style.css">-->
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'>
+  <!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
+  <!--        <link rel="stylesheet" href="assets/css/style.css.scss">-->
 
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  <!-- Favicon and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-    </head>
-		
-    <body>
+</head>
 
-        <!-- Coming Soon -->
-        <div class="coming-soon">
-            <div class="inner-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="span12">
-                            <h2>¡Pronto estaremos funcionando!</h2>
-                            <p>¡Estamos trabajando para traerte la mejor aplicacion de Jardineria para Android!</p>
-                            <div class="timer">
-                                <div class="days-wrapper">
-                                    <span class="days"></span> <br>Dias
-                                </div>
-                                <div class="hours-wrapper">
-                                    <span class="hours"></span> <br>Horas
-                                </div>
-                                <div class="minutes-wrapper">
-                                    <span class="minutes"></span> <br>Minutos
-                                </div>
-                                <div class="seconds-wrapper">
-                                    <span class="seconds"></span> <br>Segundos
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<body>
+
+<!-- Coming Soon -->
+<div class="coming-soon">
+  <div class="inner-bg">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2>¡Pronto estaremos funcionando!</h2>
+          <p>¡Estamos trabajando para traerte la mejor aplicacion de Jardineria para Android!</p>
+          <div class="timer">
+            <div class="days-wrapper">
+              <span class="days"></span> <br>Dias
             </div>
+            <div class="hours-wrapper">
+              <span class="hours"></span> <br>Horas
+            </div>
+            <div class="minutes-wrapper">
+              <span class="minutes"></span> <br>Minutos
+            </div>
+            <div class="seconds-wrapper">
+              <span class="seconds"></span> <br>Segundos
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-        <!-- Content -->
-        <div class="container">
-            <div class="row">
-                <div class="span12 subscribe">
-                    
-                    <% if flash[:notice] %>
-						<h3 class="flash-notice"><%= flash[:notice] %></h3>
-					<% else %>
-						<h3>¡Suscribete para obtener noticias!</h3>
-						<p>Suscribete </p>
-						
-						<% if flash[:error] %>
-							<p style="color:red;"><%= flash[:error] %></p>											
-						<% end %>
-						
-						
-						<%= form_tag(:new_subscriber, :method=>'post') do %>
-							<%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
-							<%= email_field_tag 'email', nil, placeholder: 'Ingrese su e-mail....' %>
-							<%= button_tag 'Subscribirse'%>							
-						<% end %>
-					<% end %>                 	
-									
-                    
-                    <div class="success-message"></div>
-                    <div class="error-message"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="span12 social">
-                    <a href="https://www.facebook.com/Seeds.LeafIT" class="facebook" rel="tooltip" data-placement="top" data-original-title="Facebook"></a>
-                    <a href="https://twitter.com/Seeds_LeafIT" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>                  
-                </div>
-            </div>
-        </div>
+<!-- Content -->
+<div class="container">
+  <div class="row">
+    <div class="span12 subscribe">
 
-        <!-- Javascript -->
-<!--        <script src="assets/js/jquery-1.8.2.min.js"></script>-->
-<!--        <script src="assets/bootstrap/js/bootstrap.min.js"></script>-->
-<!--        <script src="assets/js/jquery.backstretch.min.js"></script>-->
-<!--        <script src="assets/js/jquery.countdown.js"></script>-->
-<!--        <script src="assets/js/scripts.js"></script>-->
+      <% if flash[:notice] %>
+          <h3 class="flash-notice"><%= flash[:notice] %></h3>
+      <% else %>
+          <h3>¡Suscribete para obtener noticias y má    s!</h3>
+          <p>Suscribete </p>
 
-    </body>
+          <% if flash[:error] %>
+              <p style="color:red;"><%= flash[:error] %></p>
+          <% end %>
+
+
+          <%= form_tag(:new_subscriber, :method=>'post') do %>
+              <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
+              <%= email_field_tag 'email', nil, placeholder: 'Ingrese su e-mail....' %>
+              <%= button_tag 'Subscribirse'%>
+          <% end %>
+      <% end %>
+
+      <%= link_to image_tag('share.png'), 'https://www.facebook.com/dialog/feed?
+  app_id=145634995501895
+  &display=popup&caption=An%20example%20caption 
+  &link=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F
+  &redirect_uri=https://developers.facebook.com/tools/explorer
+', :target => :blank %>
+
+
+      <div class="success-message"></div>
+      <div class="error-message"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12 social">
+      <a href="https://www.facebook.com/Seeds.LeafIT" class="facebook" rel="tooltip" data-placement="top" data-original-title="Facebook"></a>
+      <a href="https://twitter.com/Seeds_LeafIT" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>
+    </div>
+  </div>
+</div>
+
 
 </html>

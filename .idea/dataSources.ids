@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails Landing: development" uuid="d6238978-d9ce-449c-b8e8-8a0875fc1712">
+  <data-source source="LOCAL" name="Rails LeafIT-Web: development" uuid="baaa75d6-d2e5-4e3f-b147-e3c87655328e">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -1998,7 +1998,7 @@
       <column name="TOTAL_CONNECTIONS" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails Landing: test" uuid="b3e8869d-dd13-4e5d-bce4-bb1501c1738c">
+  <data-source source="LOCAL" name="Rails LeafIT-Web: test" uuid="e689ecaf-2859-4b6f-b591-ac087714802a">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
@@ -3996,7 +3996,7 @@
       <column name="TOTAL_CONNECTIONS" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails Landing: production" uuid="6572745e-5f1d-4ddb-8fc9-27ac0fdbfb06">
+  <data-source source="LOCAL" name="Rails LeafIT-Web: production" uuid="345633ce-d2a9-4530-8f5e-bbde422cee9e">
     <database-info product="MySQL" version="5.6.19-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
