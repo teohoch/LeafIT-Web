@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'project' => 'project#show'
+
+  get 'news' => 'news#show'
+
   get 'us' => 'us#show'
 
   get 'welcome/index'

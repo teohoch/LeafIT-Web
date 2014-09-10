@@ -22,8 +22,9 @@
      <li ><a href="/"><%= image_tag "Seeds.png",{size: "120x60"} %></a></li>
       <li class="tabpos <%= 'active' if params[:controller] == 'welcome' %>"><a href="/"><p>Inicio</p></a></li>
       <li class="tabpos <%= 'active' if params[:controller] == 'us' %>"><a href="/us"><p>Sobre Nosotros</p></a></li>
-      <li class="tabpos <%= 'active' if params[:controller] == 'project' %>"><a href="#">Proyecto Seeds</a></li>
-    
+      <li class="tabpos <%= 'active' if params[:controller] == 'project' %>"><a href="/project">Proyecto Seeds</a></li>
+      <li class="tabpos <%= 'active' if params[:controller] == 'news' %>"><a href="/news">Noticias</a></li>
+
     </ul>
 
 <%= yield %>
