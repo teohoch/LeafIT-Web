@@ -42,9 +42,4 @@ gem 'spring',        group: :development
 gem 'email_validator'
 gem 'bootstrap-sass'
 
-
-gem 'twitter-bootstrap-rails'
-gem "less-rails"
-gem 'tabulous'
-
 gem 'autoprefixer-rails'
