@@ -36,6 +36,7 @@
            <%= hidden_field_tag "url", @mercurio %>
            <%= button_tag 'Ver Nota'%>
        <% end %>
+       <br/>
 
      </div>
    </div>
@@ -43,7 +44,7 @@
    <div class="row info">
      <div class="col-sm-2 v-center">
        <a href="<%= @nota %>">
-         <%= image_tag(@scrap.images.first,{:class => 'img-responsive'}) %>
+         <%= image_tag('team/equipo.jpg',{:class => 'img-responsive'}) %>
        </a>
      </div>
      <div class="col-sm-10">
