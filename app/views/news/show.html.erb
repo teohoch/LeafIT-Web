@@ -18,7 +18,7 @@
 
    <div class="row info">
      <div class="col-sm-2">
-       <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1">
+       <a href=<%= @mercurio %>>
         <%= image_tag('news/mercurio1.jpg',{:class => 'img-responsive'}) %>
        </a>
      </div>
@@ -31,6 +31,7 @@
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem consequuntur cupiditate debitis,
          dignissimos dolore eligendi fugiat harum inventore laudantium maiores nisi numquam placeat porro quam quod sunt
          veritatis vero.</p>
+       <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%>
      </div>
    </div>
    <hr/>
@@ -49,6 +50,7 @@
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem consequuntur cupiditate debitis,
          dignissimos dolore eligendi fugiat harum inventore laudantium maiores nisi numquam placeat porro quam quod sunt
          veritatis vero.</p>
+       <%= social_share_button_tag("¡Seeds en UTFSM!",:url => @nota )%>
      </div>
    </div>
    <hr/>

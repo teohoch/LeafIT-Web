@@ -1,2 +1,36 @@
-<h1>Project#show</h1>
-<p>Find me in app/views/project/show.html.erb</p>
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <% content_for :title, "¡Conocenos!" %>
+</head>
+<body>
+<div class = "container">
+ <h1 class="page-header">Nuestro Producto</h1>
+<h3>¿Que es Seeds?</h3>
+
+<div class = "inf">
+<br>
+<p>
+Seeds es una aplicación para dispositivos Android que ayudará a los usuarios nuevos en el mundo de la jardineria
+a superar esa barrera de ingreso y a los usuarios experimentados a mantenerse y facilitar sus tareas diarias en este rubro
+como regados y cuidados básicos.</br>
+	
+
+</p>
+<p>¿Necesitas saber sobre tus cultivos? No te preocupes, Seeds cuenta con una enciclopedia mediante la cual se encontrará la informacion relevante
+sobre cada especie. <br>
+¿Tienes tu metodo de cuidado? Comparte tu experiencia con el resto de los usuarios, valora las experiencias de los demas usuarios. Todo esto de forma social y facil.</p>
+
+<p> 
+Por si fuera poco, te indicamos las tiendas cercanas en las cuales puedes comprar semillas o articulos de jardineria, y te damos un espacio a 
+todos los vendedores independientes de públicar sus anuncios de venta.
+</p>
+</div>
+</div>
+
+<div class="cont">
+<%= image_tag "Seeds.png",{size: "300x150", class: "margen"} %> 
+
+</div>
+</body>

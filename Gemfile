@@ -1,4 +1,4 @@
-	source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -44,6 +44,8 @@ gem 'bootstrap-sass'
 
 gem 'autoprefixer-rails'
 gem 'grabbit'
+
+gem 'social-share-button'
 
 group :development do
   gem 'better_errors'
