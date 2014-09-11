@@ -23,7 +23,7 @@
        </a>
      </div>
      <div class="col-sm-10">
-      <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1"  style="color: #1B772C; text-decoration: none;">
+      <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1" >
        <h2>Reportaje en El Mercurio de Santiago </h2>
        </a>
        <p><i>Viernes 8 de Agosto 2014</i></p>
@@ -31,6 +31,11 @@
        <p>Nos han llamado recientemente del periodico "El mercurio", con el interes de realizar una nota con respecto a nuestro proyecto.
        Como equipo nos sentimos contentos por estos avances y estamos trabajando con mas ganas para llevar Seeds a tus dispositivos</p>
        <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%>
+       <%= form_tag(:redirecting, :method=>'post') do %>
+           <%= hidden_field_tag "url", @mercurio %>
+           <%= button_tag 'Ver Nota'%>
+       <% end %>
+
      </div>
    </div>
    <hr/>
@@ -41,14 +46,23 @@
        </a>
      </div>
      <div class="col-sm-10">
-      <a href="<%= @nota %>" style="color: #1B772C; text-decoration: none;">
+      <a href="<%= @nota %>">
        <h2>Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h2>
       </a>
        <p><i>Miercoles 30 de Julio 2014</i></p>
 
        <p>Tenemos el agrado de contarles que nos han entrevistado desde el area de comunicaciones de la Universidad Santa Maria
+
        para realizar una nota sobre nuestro proyecto. Leela y enterate de lo que queremos y lo que será Seeds!</p>
+
        <%= social_share_button_tag("¡Seeds en UTFSM!",:url => @nota )%>
+       <%= form_tag(:redirecting, :method=>'post') do %>
+           <%= hidden_field_tag "url", @nota %>
+           <%= button_tag 'Ver Nota'%>
+       <% end %>
+
+
+       <br/>
      </div>
    </div>
    <hr/>

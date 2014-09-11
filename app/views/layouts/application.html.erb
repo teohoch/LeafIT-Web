@@ -5,28 +5,23 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
 
-<div class="container">
-  <%if notice%>
-      <p class="notice"><%= notice %></p>
-  <%elsif alert%>
-      <p class="alert"><%= alert %></p>
-  <%end%>
-</div>
+  <%= favicon_link_tag('seeds.ico') %>
+</head>
 
 <body style="background-color: #D4D5D5;">
 
-    <ul class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs " role="tablist">
     
-     <li ><a href="/"><%= image_tag "Seeds.png",{size: "120x60"} %></a></li>
+     <li ><a href="/"><h1 class="logo">Leaf IT</h1></a></li>
       <li class="tabpos <%= 'active' if params[:controller] == 'welcome' %>"><a href="/"><p>Inicio</p></a></li>
       <li class="tabpos <%= 'active' if params[:controller] == 'us' %>"><a href="/us"><p>Sobre Nosotros</p></a></li>
-      <li class="tabpos <%= 'active' if params[:controller] == 'project' %>"><a href="/project">Productos</a></li>
-      <li class="tabpos <%= 'active' if params[:controller] == 'news' %>"><a href="/news">Noticias</a></li>
-      <li class ="data"> <h4>Contactanos: contacto@leafit.cl</h2></li>
+      <li class="tabpos1 <%= 'active' if params[:controller] == 'project' %>"><a href="/project">Productos</a></li>
+      <li class="tabpos1 <%= 'active' if params[:controller] == 'news' %>"><a href="/news">Noticias</a></li>
+      <li class ="data"> <h4>Contáctanos: contacto@leafit.cl</h2></li>
 
-    </ul>
+   </ul>
 
 <%= yield %>
 
@@ -34,14 +29,15 @@
 
 <div class = "sponsor">
 <ul role ="tablist">
-<%= image_tag "piea.png",{size: "145x60", class: "margen"} %> 
-<%= image_tag "aexa.png",{size: "170x60", class: "margen"} %>
-<%= image_tag "fesw.png",{size: "170x60", class: "margen"} %>
-<%= image_tag "banner.png",{size: "170x60", class: "margen" }%>
-<%= image_tag "usm.png",{size: "120x60", class: "margen"} %>
-<%= image_tag "di.png",{size: "120x60", class: "margen"} %>  
+<a href="http://www.piea.usm.cl/"><%= image_tag "piea.png",{size: "145x60", class: "margen"} %> </a>
+<a href="http://www.exalumnos.utfsm.cl/"><%= image_tag "aexa.png",{size: "170x60", class: "margen"} %></a>
+<a href="http://www.feriadesoftware.cl/"><%= image_tag "fesw.png",{size: "170x60", class: "margen"} %></a>
+<a href="http://www.usm.cl/"><%= image_tag "usm.png",{size: "120x60", class: "margen"} %></a>
+<a href="http://www.inf.utfsm.cl/"><%= image_tag "di.png",{size: "120x60", class: "margen"} %>  </a>
 </ul>
 
 </div>
 
 </html>
+
+

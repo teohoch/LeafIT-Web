@@ -7,28 +7,67 @@ div.inf {
   background-color: #e0e3d7;
   border-style: solid;
   border-radius: 10px;
-  height: 300px;
   width: 600px;
+
+
   margin-bottom: 10px;
+
+}
+
+
+div.inf2 {
+  background-color: #e0e3d7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 600px;
+  margin-top:-90px;
+
+  margin-bottom: 100px;
+
 }
 
 .cont{
 	margin-left: 700px;
 	margin-right: 100px;
-	margin-bottom: 200px;
+
+	margin-bottom: 100px;
 	margin-top: -300px;
 }
+p{
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-div.require{
-  background-color: #e0e3d7;
-  border-style: solid;
-  border-radius: 10px;
-  height: 50px;
-  width: 600px;
-  margin-bottom: 100px;
-
+h4.beauty{
+  font-family: 'Lobster', cursive;
+  font-size: 20px
 }
 
 .pos{
-	margin-top:-300px;
+	margin-top:-50px;
+	margin-bottom:100px;
+}
+
+.pos2{
+	margin-top:-250px;
+	margin-bottom:100px;
+}
+
+div.require{
+background-color: #e0e3d7;
+  border-style: solid;
+  border-radius: 10px;
+  heigth: 10px;
+  width: 600px;
+  margin-bottom:50px;
+  margin-top: -90px;
+
+	
+}
+
+.tab{
+	margin-left:380px;
 }

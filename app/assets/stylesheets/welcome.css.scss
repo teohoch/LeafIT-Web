@@ -75,16 +75,17 @@ a:hover { text-decoration: none; }
 
 .coming-soon {
   margin: 0 auto;
+  
   text-align: center;
   color: #fff;
-}
+ } 
 
 .inner-bg {
   padding: 10px 0 10px 0;
-  background: image-url("pattern-3.png");
+  background: transparent;
   -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
   -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+  box-shadow: transparent;
 }
 
 .coming-soon h2 {
@@ -92,7 +93,7 @@ a:hover { text-decoration: none; }
   font-weight: 700;
   text-transform: uppercase;
   color: #86C67C;
-  text-shadow: 0 1px 7px rgba(0,0,0,1);
+ 
 }
 
 .coming-soon p {
@@ -100,12 +101,12 @@ a:hover { text-decoration: none; }
   font-size: 25px;
   line-height: 36px;
   color: #86C600;
-  text-shadow: 0 1px 7px rgba(0,0,0,1);
-}
+  }
 
 .timer {
   margin-top: 20px;
   text-shadow: 0 1px 5px rgba(0,0,0,.1);
+  margin-bottom:100px;
 }
 
 .timer .days-wrapper,

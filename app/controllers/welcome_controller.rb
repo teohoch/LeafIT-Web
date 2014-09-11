@@ -2,6 +2,11 @@ class WelcomeController < ApplicationController
   def index
   end
 
+  def redirecting
+    redirect_url = params[:url]
+    redirect_to redirect_url
+  end
+
   def new_subscriber
     @name = params[:name]
     @mail = params[:email]
