@@ -4,6 +4,7 @@
 
 .team {
   margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
   color: #fff;
   height: 500px;
@@ -21,5 +22,15 @@ img.img-responsive{
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.span1{
+  width:500px;
+  margin-left:-15px;
+}
+
+.span2{
+  margin-left: 600px;
+  width:500px;
 }
 

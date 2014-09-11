@@ -9,12 +9,26 @@ div.inf {
   border-radius: 10px;
   height: 300px;
   width: 600px;
-  margin-bottom: 127px;
+  margin-bottom: 10px;
 }
 
 .cont{
-	margin-left: 800px;
+	margin-left: 700px;
 	margin-right: 100px;
-	margin-bottom: 300px;
-	margin-top: -450px;
+	margin-bottom: 200px;
+	margin-top: -300px;
+}
+
+div.require{
+  background-color: #e0e3d7;
+  border-style: solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 600px;
+  margin-bottom: 100px;
+
+}
+
+.pos{
+	margin-top:-300px;
 }
