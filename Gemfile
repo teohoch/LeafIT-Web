@@ -46,6 +46,7 @@ gem 'autoprefixer-rails'
 gem 'grabbit'
 
 gem 'social-share-button'
+gem 'sprockets-image_compressor'
 
 group :development do
   gem 'better_errors'
