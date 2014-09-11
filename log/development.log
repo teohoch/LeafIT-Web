@@ -89444,3 +89444,229 @@ Started GET "/news" for 127.0.0.1 at 2014-09-11 05:13:21 -0300
 Processing by NewsController#show as HTML
   Rendered news/show.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 3037ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-09-11 05:18:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by NewsController#show as HTML
+  Rendered news/show.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 4001ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/social-share-button.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/us.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/project.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/social-share-button.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery-1.8.2.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/jquery.countdown.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/primary.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/project.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/scripts.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/us.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 05:18:31 -0300
+
+
+Started GET "/news" for 127.0.0.1 at 2014-09-11 05:19:11 -0300
+Processing by NewsController#show as HTML
+  Rendered news/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2372ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/project.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/social-share-button.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/us.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery-1.8.2.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/jquery.countdown.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/social-share-button.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/primary.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/project.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/scripts.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/us.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:14 -0300
+
+
+Started GET "/news" for 127.0.0.1 at 2014-09-11 05:19:45 -0300
+Processing by NewsController#show as HTML
+  Rendered news/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 5385ms (Views: 1444.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/social-share-button.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/project.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/us.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/social-share-button.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery-1.8.2.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery.backstretch.min.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/jquery.countdown.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/project.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/primary.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/scripts.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/us.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-11 05:19:50 -0300
