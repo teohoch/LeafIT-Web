@@ -31,7 +31,9 @@
        <p>Recibimos una llamada del diario El Mercurio, luego de la cual recibimos una entrevista por parte de ellos, la cual pueden ver 
        en este artículo. Como equipo estamos muy contentos, ya que estas instancias le dan publicidad a nuestro producto y nos motivan
        a trabajar mas para traerte la mejor aplicación de jardinería. ¡Espéranos!</p>
-       <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%>
+       <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
+       <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%><br>
+
        <%= form_tag(:redirecting, :method=>'post') do %>
            <%= hidden_field_tag "url", @mercurio %>
            <%= button_tag 'Ver Nota'%>
@@ -56,7 +58,7 @@
        <p>Tenemos el agrado de contarles que nos han entrevistado desde el area de comunicaciones de la Universidad Santa Maria
 
        para realizar una nota sobre nuestro proyecto. Leela y enterate de lo que queremos y lo que será Seeds!</p>
-
+ <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
        <%= social_share_button_tag("¡Seeds en UTFSM!",:url => @nota )%>
        <%= form_tag(:redirecting, :method=>'post') do %>
            <%= hidden_field_tag "url", @nota %>

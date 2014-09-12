@@ -1,0 +1,1 @@
+jQuery(document).on("ready page:change",function(){var e=((new Date).valueOf(),new Date(2014,10,14).valueOf()),a=e;$(".timer").countdown(a,function(e){var a=$(this);switch(e.type){case"seconds":case"minutes":case"hours":case"days":case"weeks":case"daysLeft":a.find("span."+e.type).html(e.value);break;case"finished":a.hide()}})});

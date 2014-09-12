@@ -22,6 +22,16 @@
   height: 200px;
 }
 
+.span4{
+  margin-left:700px;
+  margin-top: -90px;
+}
+
+.span3{
+  margin-top:-130px;
+  width: 500px;
+  margin-left: 600px;
+}
 
 body {
   background: #f8f8f8 image-url("pattern.jpg");
@@ -247,6 +257,7 @@ a:hover { text-decoration: none; }
 .social {
   margin-top: 20px;
   padding-bottom: 30px;
+  margin-right: 210px;
   text-align: center;
 }
 
