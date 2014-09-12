@@ -27,6 +27,13 @@
       <div class="col-sm-6">
         <div class="contact">
           <h3>Formulario de Contacto</h3>
+          <% if flash[:notice] %>
+              <p class="flash-notice"><%= flash[:notice] %></p>
+          <% end %>
+
+          <% if flash[:notice] %>
+              <p class="flash-error"><%= flash[:error] %></p>
+          <% end %>
           <%= form_tag(:send_contact, :method=>'post') do %>
               <p>Ingrese su nombre:</p>
               <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
