@@ -19,72 +19,71 @@
 
 <body>
 
-<!-- Coming Soon -->
 
 <!-- Content -->
-<div class="container" style="margin-top:60px;">
-
-<div class ="span1">
-<h4 class ="beauty">¿Qué es Leaf IT?</h4></p>
-
-<p>Somos Leaf IT, una pre-empresa chilena dedicada al rubro del desarrollo de software. Nuestros principales objetivos son brindarles a nuestros usuarios software de calidad, los cuales brinden experiencias de usabilidad únicas.
-</p>
-</div>
-
-<div class="span3">
-<h4 class ="beauty">Actualmente</h4>
-<p>Leaf IT, actualmente se encuentra participando en la XXII Feria de Software, organizada por el Departamento de Informática de la Universidad Técnica Federico Santa Maria, a realizarse el 14 de Noviembre en el campus San Joaquín de la misma. Este día se realizará el lanzamiento de nuestro producto Seeds.</p> ¿Quieres Saber más al respecto?... <a href="/project">Leer más sobre Seeds</a>
-</div>
-<br>
-
-  <div class="row">
-    <div class="span12 subscribe">
-
-      <% if flash[:notice] %>
-          <h3 class="flash-notice"><%= flash[:notice] %></h3>
-      <% else %>
-          <h3>¡Suscríbete para obtener noticias y más!</h3>
-
-
-          <% if flash[:error] %>
-              <p style="color:red;"><%= flash[:error] %></p>
-          <% end %>
-
-
-          <%= form_tag(:new_subscriber, :method=>'post') do %>
-              <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
-              <%= email_field_tag 'email', nil, placeholder: 'Ingrese su e-mail....' %>
-              <%= button_tag 'Subscribirse'%>
-          <% end %>
-      <% end %>
-      <br/>
-      <div class="span1">
-      <h2 class="beauty">¡Comparte este sitio en las redes sociales!</h2>
-      <br>
-      <%= social_share_button_tag("Seeds Sign up!", :url => 'leafit.cl') %>
+    <div class="container" style="margin-top:60px;">
+    <div class="row">
+      <div class ="col-sm-6">
+        <h4 class ="beauty">¿Qué es Leaf IT?</h4></p>
+        <p>Somos Leaf IT, una pre-empresa chilena dedicada al rubro del desarrollo de software. Nuestros principales objetivos son brindarles a nuestros usuarios software de calidad, los cuales brinden experiencias de usabilidad únicas.
+        </p>
       </div>
 
-      <div class="success-message"></div>
-      <div class="error-message"></div>
+      <div class="col-sm-6">
+        <h4 class ="beauty">Actualmente</h4>
+        <p>Leaf IT, actualmente se encuentra participando en la XXII Feria de Software, organizada por el Departamento de Informática de la Universidad Técnica Federico Santa Maria, a realizarse el 14 de Noviembre en el campus San Joaquín de la misma. Este día se realizará el lanzamiento de nuestro producto Seeds.</p> ¿Quieres Saber más al respecto?... <a href="/project">Leer más sobre Seeds</a>
+      </div>
+      <br>
     </div>
-  </div>
 
-  <div class="span4">
-  <div class="row">
-  <h2 class="beauty">¡Visitanos en Facebook y Twitter!</h2>
-    <div class="span12 social ">
-      <a href="https://www.facebook.com/Seeds.LeafIT" class="facebook" rel="tooltip" data-placement="top" data-original-title="Facebook"></a>
-      <a href="https://twitter.com/Seeds_LeafIT" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>
+
+      <div class="row">
+        <div class="span12 subscribe">
+
+          <% if flash[:notice] %>
+              <h3 class="flash-notice"><%= flash[:notice] %></h3>
+          <% else %>
+              <h3>¡Suscríbete para obtener noticias y más!</h3>
+
+
+              <% if flash[:error] %>
+                  <p style="color:red;"><%= flash[:error] %></p>
+              <% end %>
+
+
+              <%= form_tag(:new_subscriber, :method=>'post') do %>
+                  <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
+                  <%= email_field_tag 'email', nil, placeholder: 'Ingrese su e-mail....' %>
+                  <%= button_tag 'Subscribirse'%>
+              <% end %>
+          <% end %>
+          <br/>
+
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h2 class="beauty">¡Visitanos en Facebook y Twitter!</h2>
+          <div class="social">
+            <a href="https://www.facebook.com/Seeds.LeafIT" class="facebook" rel="tooltip" data-placement="top" data-original-title="Facebook"></a>
+            <a href="https://twitter.com/Seeds_LeafIT" class="twitter" rel="tooltip" data-placement="top" data-original-title="Twitter"></a>
+          </div></div>
+
+        <div class="col-sm-6">
+          <h2 class="beauty">¡Comparte este sitio en las redes sociales!</h2>
+          <br>
+          <%= social_share_button_tag("Seeds Sign up!", :url => 'leafit.cl') %>
+        </div>
+      </div>
+
+
+
+
     </div>
-  </div>
-  </div>
 
-
-
-
-</div>
-
-<br>
+    <br>
 </body>
 
 </html>

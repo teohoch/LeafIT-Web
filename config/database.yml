@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password: ARIEL
+  password: Carl.Sagan
   host: localhost
 
 development:
@@ -52,4 +52,4 @@ production:
   encoding: utf8
   database: leafitdb
   username: root
-  password: ARIEL
+  password: Carl.Sagan

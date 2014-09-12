@@ -1,0 +1,475 @@
+/*
+ *
+ * Template Name: Alissa
+ * Template URI: http://azmind.com
+ * Description: Alissa - Responsive Coming Soon Template
+ * Author: Anli Zaimi
+ * Author URI: http://azmind.com
+ *
+ */
+/* line 18, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.te {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  height: 200px;
+}
+
+/* line 26, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.span4 {
+  margin-left: 700px;
+  margin-top: -90px;
+}
+
+/* line 31, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.span3 {
+  margin-top: -130px;
+  width: 500px;
+  margin-left: 600px;
+}
+
+/* line 37, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+body {
+  background: #f8f8f8 url(/assets/pattern.jpg);
+  text-align: left;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #555;
+  font-weight: 400;
+  border-top: 2px solid #86C67C;
+}
+
+/* line 46, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 47, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 49, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+::-moz-selection {
+  background: #86C67C;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 50, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+::-moz-selection {
+  background: #86C67C;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #86C67C;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 52, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.logo h1 {
+  margin-top: 7px;
+  padding-left: 50px;
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* line 61, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.logo h1 span {
+  color: #86C67C;
+}
+
+/* line 63, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.logo a {
+  color: #555;
+  text-decoration: none;
+  -o-transition: all .2s;
+  -moz-transition: all .2s;
+  -webkit-transition: all .2s;
+  -ms-transition: all .2s;
+}
+
+/* line 71, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.logo a:hover {
+  color: #86C67C;
+}
+
+/* line 72, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.logo {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10;
+}
+
+/* line 78, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.call-us {
+  font-size: 18px;
+  text-align: right;
+}
+
+/* line 83, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.call-us p {
+  margin-top: 18px;
+  padding-right: 50px;
+}
+
+/* line 88, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.call-us p span {
+  color: #888;
+}
+
+/***** Coming Soon *****/
+/* line 93, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.coming-soon {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 100, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.inner-bg {
+  padding: 10px 0 10px 0;
+  background: transparent;
+  box-shadow: transparent;
+}
+
+/* line 108, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.coming-soon h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #86C67C;
+}
+
+/* line 116, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.coming-soon p {
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 36px;
+  color: #86C600;
+}
+
+/* line 123, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.timer {
+  margin-top: 20px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+/* line 132, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+  display: inline-block;
+  width: 160px;
+  height: 140px;
+  margin: 0 10px;
+  padding-top: 10px;
+  background: #2d2d2d;
+  background: rgba(45, 45, 45, 0.7);
+  font-size: 18px;
+  border-radius: 80px;
+}
+
+/* line 149, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.timer .days-wrapper:hover,
+.timer .hours-wrapper:hover,
+.timer .minutes-wrapper:hover,
+.timer .seconds-wrapper:hover {
+  background: #86c67c url(/assets/pattern-2.png);
+  text-shadow: none;
+}
+
+/* line 157, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+  font-size: 80px;
+  line-height: 90px;
+}
+
+/***** Content *****/
+/* line 165, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 170, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px #fff;
+}
+
+/* line 179, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* line 185, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form {
+  margin-top: 24px;
+}
+
+/* line 189, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form input {
+  width: 310px;
+  height: 46px;
+  margin: 0;
+  padding: 0 10px;
+  background: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #888;
+  border-radius: 5px;
+  border: solid 1px #dcdcdc;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+          transition: box-shadow 0.3s, border 0.3s;
+}
+
+/* line 205, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form input:focus {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* line 211, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form input:-moz-placeholder {
+  color: #888;
+}
+
+/* line 212, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form input:-ms-input-placeholder {
+  color: #888;
+}
+
+/* line 213, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form input::-webkit-input-placeholder {
+  color: #888;
+}
+
+/* line 215, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form button {
+  width: 250px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  background: #86C67C;
+  border: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+}
+
+/* line 240, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form button:hover {
+  background: #72ab68;
+  color: #fff;
+}
+
+/* line 245, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.subscribe form button:active {
+  background: #406a38;
+  color: #fff;
+}
+
+/* line 250, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.success-message, .error-message {
+  font-size: 18px;
+}
+
+/* line 254, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.error-message {
+  color: #86C67C;
+}
+
+/* line 258, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 210px;
+  text-align: center;
+}
+
+/* line 265, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 3px;
+}
+
+/* line 272, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.facebook {
+  background: url(/assets/social-icons/facebook.png);
+}
+
+/* line 273, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.twitter {
+  background: url(/assets/social-icons/twitter.png);
+}
+
+/* line 274, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.dribbble {
+  background: url(/assets/social-icons/dribbble.png);
+}
+
+/* line 275, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.googleplus {
+  background: url(/assets/social-icons/googleplus.png);
+}
+
+/* line 276, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.pinterest {
+  background: url(/assets/social-icons/pinterest.png);
+}
+
+/* line 277, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+.social a.flickr {
+  background: url(/assets/social-icons/flickr.png);
+}
+
+/***** Media Queries *****/
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 284, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .logo h1 {
+    padding-left: 0;
+  }
+
+  /* line 288, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .call-us p {
+    padding-right: 0;
+  }
+
+  /* line 295, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .timer .days-wrapper,
+  .timer .hours-wrapper,
+  .timer .minutes-wrapper,
+  .timer .seconds-wrapper {
+    width: 140px;
+    height: 120px;
+    margin: 0 7px;
+    padding-top: 20px;
+    border-radius: 70px;
+  }
+
+  /* line 308, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .timer .days,
+  .timer .hours,
+  .timer .minutes,
+  .timer .seconds {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 317, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 322, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .logo h1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* line 327, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .call-us {
+    padding-bottom: 7px;
+    text-align: center;
+  }
+
+  /* line 332, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .call-us p {
+    padding-right: 0;
+  }
+
+  /* line 336, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .inner-bg {
+    padding: 45px 0 50px 0;
+  }
+
+  /* line 340, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .coming-soon h2 {
+    font-size: 36px;
+    padding: 0 20px;
+  }
+
+  /* line 345, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .coming-soon p {
+    padding: 0 20px;
+  }
+
+  /* line 352, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .timer .days-wrapper,
+  .timer .hours-wrapper,
+  .timer .minutes-wrapper,
+  .timer .seconds-wrapper {
+    width: 140px;
+    height: 120px;
+    margin: 7px;
+    padding-top: 20px;
+    border-radius: 70px;
+  }
+
+  /* line 365, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .timer .days,
+  .timer .hours,
+  .timer .minutes,
+  .timer .seconds {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  /* line 370, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .subscribe h3 {
+    padding: 0 20px;
+    font-size: 28px;
+  }
+
+  /* line 375, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .subscribe p {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 800px) {
+  /* line 383, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .subscribe form {
+    padding: 0 20px;
+  }
+
+  /* line 387, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .subscribe form input {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  /* line 392, /home/teohoch/LeafIT-Web/app/assets/stylesheets/welcome.css.scss */
+  .subscribe form button {
+    width: 90%;
+    margin-top: 10px;
+  }
+}

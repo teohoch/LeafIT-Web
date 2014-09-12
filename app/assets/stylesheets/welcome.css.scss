@@ -87,76 +87,7 @@ a:hover { text-decoration: none; }
 .call-us p span { color: #888; }
 
 
-/***** Coming Soon *****/
 
-.coming-soon {
-  margin: 0 auto;
-  
-  text-align: center;
-  color: #fff;
- } 
-
-.inner-bg {
-  padding: 10px 0 10px 0;
-  background: transparent;
-  -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-  -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
-  box-shadow: transparent;
-}
-
-.coming-soon h2 {
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #86C67C;
- 
-}
-
-.coming-soon p {
-  margin-top: 20px;
-  font-size: 25px;
-  line-height: 36px;
-  color: #86C600;
-  }
-
-.timer {
-  margin-top: 20px;
-  text-shadow: 0 1px 5px rgba(0,0,0,.1);
-  margin-bottom:100px;
-}
-
-.timer .days-wrapper,
-.timer .hours-wrapper,
-.timer .minutes-wrapper,
-.timer .seconds-wrapper {
-  display: inline-block;
-  width: 160px;
-  height: 140px;
-  margin: 0 10px;
-  padding-top: 10px;
-  background: #2d2d2d;
-  background: rgba(45,45,45,.7);
-  font-size: 18px;
-  -moz-border-radius: 80px;
-  -webkit-border-radius: 80px;
-  border-radius: 80px;
-}
-
-.timer .days-wrapper:hover,
-.timer .hours-wrapper:hover,
-.timer .minutes-wrapper:hover,
-.timer .seconds-wrapper:hover {
-  background: #86C67C image-url("pattern-2.png");
-  text-shadow: none;
-}
-
-.timer .days,
-.timer .hours,
-.timer .minutes,
-.timer .seconds {
-  font-size: 80px;
-  line-height: 90px;
-}
 
 
 /***** Content *****/
