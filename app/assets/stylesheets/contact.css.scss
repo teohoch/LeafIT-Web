@@ -1,0 +1,103 @@
+// Place all the styles related to the contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.contact {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contact h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 40px;
+  text-shadow: 1px 2px 1px #fff;
+}
+
+.contact p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.contact form {
+  margin-top: 24px;
+  margin-left: 50px;
+}
+
+.contact form input {
+  width: 310px;
+  height: 46px;
+  margin: 0;
+  padding: 0 10px;
+  margin-left: 15px;
+  background: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #888;
+  border-radius: 5px;
+  border: solid 2px #9d9d9d;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.contact form textarea{
+  width: 310px;
+  height: 150px;
+  margin: 1;
+  padding: 0 10px;
+  margin-left: 15px;
+  background: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #888;
+  border-radius: 5px;
+  border: solid 2px #9d9d9d;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.contact form input:focus {
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+}
+
+.contact form input:-moz-placeholder { color: #888; }
+.contact form input:-ms-input-placeholder { color: #888; }
+.contact form input::-webkit-input-placeholder { color: #888; }
+
+.contact form button {
+  width: 250px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  background: #86C67C;
+  border: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  margin-left: 15px
+}
+
+.contact form button:hover {
+  background: #72ab68;
+  color: #fff;
+}
+
+.contact form button:active {
+  background: #406a38;
+  color: #fff;
+}
