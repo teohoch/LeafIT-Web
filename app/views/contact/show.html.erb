@@ -14,6 +14,9 @@
           <ul style="list-style-type:disc">
               <li><h4>Dirección:</h4>
               <p>Universidad Federico Santa Maria, Casa Central</p></li>
+              <li><h4>Teléfono:</h4>
+                <p>09-93830775</p>
+                <p>09-98919329</p></li>
               <li><h4>Correo de Contacto</h4>
               <p><%= mail_to 'contacto@leafit.cl' %></p></li>
           </ul>
@@ -24,6 +27,13 @@
       <div class="col-sm-6">
         <div class="contact">
           <h3>Formulario de Contacto</h3>
+          <% if flash[:notice] %>
+              <p class="flash-notice"><%= flash[:notice] %></p>
+          <% end %>
+
+          <% if flash[:notice] %>
+              <p class="flash-error"><%= flash[:error] %></p>
+          <% end %>
           <%= form_tag(:send_contact, :method=>'post') do %>
               <p>Ingrese su nombre:</p>
               <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>

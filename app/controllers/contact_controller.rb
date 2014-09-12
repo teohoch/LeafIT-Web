@@ -15,9 +15,9 @@ class ContactController < ApplicationController
     if c.errors.any?
       flash[:error] = 'Debe ingresar nombre, email y comentario!'
     else
-      flash[:notice] = '¡Su mensage a sido recibido! Gracias por su Feedback'
+      flash[:notice] = 'Su mensage a sido recibido. Gracias por su Feedback'
     end
-    redirect_to root_path
+    redirect_to contact_path
 
   end
 end
