@@ -2,16 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <% content_for :title, "¡Inscribete para noticias!" %>
+    <% content_for :title, " Contacto" %>
   </head>
   <body>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <div class="contact">
-          <h3>Información de contacto</h3>
-          <br/>
-          <ul style="list-style-type:disc">
+      <div class="col-sm-5">
+
+          <h3 class="beauty">Información de contacto</h3>
+          <ul class="contact">
               <li><h4>Dirección:</h4>
               <p>Universidad Federico Santa Maria, Casa Central</p></li>
               <li><h4>Teléfono:</h4>
@@ -21,20 +20,18 @@
               <p><%= mail_to 'contacto@leafit.cl' %></p></li>
           </ul>
 
-        </div>
 
       </div>
       <div class="col-sm-6">
+        <h3 class="beauty">Formulario de Contacto</h3>
         <div class="contact">
-          <h3>Formulario de Contacto</h3>
-          <% if flash[:notice] %>
-              <p class="flash-notice"><%= flash[:notice] %></p>
-          <% end %>
 
-          <% if flash[:notice] %>
-              <p class="flash-error"><%= flash[:error] %></p>
-          <% end %>
+
           <%= form_tag(:send_contact, :method=>'post') do %>
+
+              <% if flash[:error] %>
+                  <p class="flash-error"><%= flash[:error] %></p>
+              <% end %>
               <p>Ingrese su nombre:</p>
               <%= text_field_tag 'name', nil, placeholder: 'Ingrese su Nombre....' %>
               <br/><br/>
@@ -44,7 +41,7 @@
               <p>Ingrese su Comentario</p>
               <%= text_area_tag 'comment',nil %>
               <br/><br/>
-              <%= button_tag 'Enviar'%>
+              <%= button_tag 'Enviar', :onvalidation => "alert('Input collected!')"%>
           <% end %>
         </div>
 
@@ -56,3 +53,9 @@
 
   </body>
   </html>
+
+<% if flash[:notice] %>
+    <script type="text/javascript">
+        alert("Su mensage a sido recibido. Gracias por su Feedback");
+    </script>
+<% end %>

@@ -1,0 +1,1 @@
+jQuery(document).on("ready page:change",function(){$(".social a.facebook").tooltip(),$(".social a.twitter").tooltip(),$(".social a.dribbble").tooltip(),$(".social a.googleplus").tooltip(),$(".success-message").hide(),$(".error-message").hide()});

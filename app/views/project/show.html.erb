@@ -1,25 +1,25 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
-      <% content_for :title, "¡El Producto!" %>
+      <% content_for :title, " Nuestro Producto" %>
     </head>
     <body>
         <div class = "container">
 
           <div class="row">
-            <div class="col-xs-2">
+            <div class="col-sm-2">
               <%= image_tag 'Seeds.png',:class => 'img-responsive' %>
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-4">
               <br/><br/><br/>
-              <h4 class="beauty">Nuestro Producto</h4>
+              <h2 class="beauty">Nuestro Producto</h2>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-sm-8 inf">
-              <p>
+            <div class="col-sm-8">
+              <p class="info">
                 Seeds es una aplicación para dispositivos Android que ayudará a los usuarios nuevos en el mundo de la jardinería
                 a superar esa barrera de ingreso y a los usuarios experimentados a mantenerse y facilitar sus tareas diarias en este
                 rubro como regados y cuidados básicos.</br><br/>
@@ -38,29 +38,32 @@
           </div>
 
         <div class="row">
-          <div class="col-sm-12 inf">
+          <div class="col-sm-12">
             <h4 class="beauty">Algunas Características</h4>
-              <p><ul><li>Con Seeds podrás saber cuando regar y cuidar tus plantas mediante notificaciones.</li>
-              <li>Tendrás a la mano la información de la especie que poseas y podrás compartir socialmente, por medio de experiencias, con quienes posean mas o menos experiencia.
-                con la misma especie</li>
-              <li>Podrás ver, gracias a la geolocalización, las tiendas mas cercanas de jardinería, físicas y online. </li>
-              <li>Podrás vender tus propias plantas, semillas o artículos del rubro a través de anuncios, los cuales pueden ser vistos por todos.</li>
-              </ul></p>
+              <ul class="info-list">
+                <li><p>Con Seeds podrás saber cuando regar y cuidar tus plantas mediante notificaciones.</p></li>
+                <li><p>Tendrás a la mano la información de la especie que poseas y podrás compartir socialmente, por medio de experiencias, con quienes posean mas o menos experiencia.
+                con la misma especie</p></li>
+                <li><p>Podrás ver, gracias a la geolocalización, las tiendas mas cercanas de jardinería, físicas y online. </p></li>
+                <li><p>Podrás vender tus propias plantas, semillas o artículos del rubro a través de anuncios, los cuales pueden ser vistos por todos.</p></li>
+              </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-12 inf">
+          <div class="col-sm-12">
             <h4 class="beauty">Requerimientos</h4>
-            <ul><li><p>Dispositivo Con sistema operativo Android 4.0 o superior</p></li></ul>
+            <ul class="info-list">
+              <li><p>Dispositivo Con sistema operativo Android 4.0 o superior</p></li>
+            </ul>
 
           </div>
         </div>
 
         <div class="row">
-            <div class="col-sm-12 inf">
+            <div class="col-sm-12">
               <h4 class="beauty">Lanzamiento</h4>
-              <p>Seeds sera mostrado a la comunidad, el día de su lanzamiento, el 14 de Noviembre del 2014, en la <a href="http://www.feriadesoftware.cl">Feria de Software</a>, organizada por la
+              <p class="info">Seeds sera mostrado a la comunidad, el día de su lanzamiento, el 14 de Noviembre del 2014, en la <a href="http://www.feriadesoftware.cl">Feria de Software</a>, organizada por la
                 Universidad Técnica Federico Santa Maria, en el Campus San Joaquín. </p>
             </div>
         </div>
@@ -70,8 +73,9 @@
             <div class="container">
               <div class="row">
                 <div class="span12">
-                  <h4 class="beauty">Días para El lanzamiento de Seeds</h4>
-                  <h3> ¡Visítanos en la Feria de Software!</h3>
+                  <h2> ¡Visítanos en la Feria de Software!</h2>
+                  <h3 class="beauty">Días para El lanzamiento de Seeds</h3>
+
                   <div class="timer">
                     <div class="days-wrapper">
                       <span class="days"></span> <br>Dias

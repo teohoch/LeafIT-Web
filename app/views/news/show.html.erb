@@ -2,48 +2,48 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <% content_for :title, "Noticias" %>
+  <% content_for :title, " Noticias" %>
 </head>
 <body>
 
  <div class="container">
    <div class="row">
-     <div class="col-xs-12">
-       <h1>Noticias</h1>
-       <h3>Aquí encontraras las últimas noticias y apariciones en la prensa de LeafIT</h3>
+     <div class="col-sm-12">
+       <h1 class="beauty">Noticias</h1>
+       <h4>Aquí encontraras las últimas noticias y apariciones en la prensa de LeafIT</h4>
      </div>
    </div>
+   <br/>
+   <div class="row info anti-row vertical-align">
 
-   <hr/>
+       <div class="col-sm-2">
+         <a href=<%= @mercurio %>>
+           <%= image_tag('news/mercurio1.jpg',{:class => 'img-responsive'}) %>
+         </a>
+       </div>
+       <div class="col-sm-10">
+         <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1" >
+           <h2>Se Multiplican las aplicaciones para cuidar las plantas</h2>
+         </a>
+         <h4 class="beauty">Reportaje en El Mercurio de Santiago </h4>
+         <p><i>Viernes 8 de Agosto 2014</i></p>
 
-   <div class="row info">
-     <div class="col-sm-2">
-       <a href=<%= @mercurio %>>
-        <%= image_tag('news/mercurio1.jpg',{:class => 'img-responsive'}) %>
-       </a>
-     </div>
-     <div class="col-sm-10">
-      <a href="http://impresa.elmercurio.com/Pages/NewsDetail.aspx?dt=2014-08-08&dtB=08-08-2014+0%3A00%3A00&PaginaId=10&bodyid=1" >
-       <h2>Reportaje en El Mercurio de Santiago </h2>
-       </a>
-       <p><i>Viernes 8 de Agosto 2014</i></p>
+         <p>Recibimos una llamada del diario El Mercurio, luego de la cual recibimos una entrevista por parte de ellos, la cual pueden ver
+           en este artículo. Como equipo estamos muy contentos, ya que estas instancias le dan publicidad a nuestro producto y nos motivan
+           a trabajar mas para traerte la mejor aplicación de jardinería. ¡Espéranos!</p>
+         <%= form_tag(:redirecting, :method=>'post') do %>
+             <%= hidden_field_tag "url", @mercurio %>
+             <%= button_tag 'Ver Nota'%>
+         <% end %>
+         <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
+         <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%><br>
 
-       <p>Recibimos una llamada del diario El Mercurio, luego de la cual recibimos una entrevista por parte de ellos, la cual pueden ver 
-       en este artículo. Como equipo estamos muy contentos, ya que estas instancias le dan publicidad a nuestro producto y nos motivan
-       a trabajar mas para traerte la mejor aplicación de jardinería. ¡Espéranos!</p>
-       <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
-       <%= social_share_button_tag("¡Seeds en el Mercurio!",:url => @mercurio )%><br>
 
-       <%= form_tag(:redirecting, :method=>'post') do %>
-           <%= hidden_field_tag "url", @mercurio %>
-           <%= button_tag 'Ver Nota'%>
-       <% end %>
-       <br/>
+       </div>
 
-     </div>
    </div>
    <hr/>
-   <div class="row info">
+   <div class="row info anti-row vertical-align">
      <div class="col-sm-2 v-center">
        <a href="<%= @nota %>">
          <%= image_tag('team/equipo.jpg',{:class => 'img-responsive'}) %>
@@ -51,19 +51,18 @@
      </div>
      <div class="col-sm-10">
       <a href="<%= @nota %>">
-       <h2>Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h2>
+        <h2>Estudiantes USM desarrollan aplicación móvil que facilita el cuidado de plantas y vegetales</h2>
+        <h4 class="beauty">Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h4>
       </a>
        <p><i>Miercoles 30 de Julio 2014</i></p>
-
-       <p>Tenemos el agrado de contarles que nos han entrevistado desde el area de comunicaciones de la Universidad Santa Maria
-
-       para realizar una nota sobre nuestro proyecto. Leela y enterate de lo que queremos y lo que será Seeds!</p>
- <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
-       <%= social_share_button_tag("¡Seeds en UTFSM!",:url => @nota )%>
+       <p>Tenemos el agrado de contarles que nos han entrevistado desde el area de comunicaciones de la Universidad Santa Maria para realizar una nota sobre nuestro proyecto. Leela y enterate de lo que queremos y lo que será Seeds!</p>
        <%= form_tag(:redirecting, :method=>'post') do %>
            <%= hidden_field_tag "url", @nota %>
            <%= button_tag 'Ver Nota'%>
        <% end %>
+       <h2 class ="beauty"> ¡Comparte Esta noticia!</h2>
+       <%= social_share_button_tag("¡Seeds en UTFSM!",:url => @nota )%>
+
 
 
        <br/>
