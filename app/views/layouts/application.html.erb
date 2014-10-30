@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-  <title>LeafIT: <%= yield(:title) %></title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+    <head>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+      <title>LeafIT: <%= yield(:title) %></title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+
+      <%= favicon_link_tag('seeds.ico') %>
+    </head>
+
+    <body>
+        <div class="container">
+          <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="border-bottom: 2px solid #86C67C">
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/" style="color: #428bca; ">
+                <h1 class="beauty" style="margin: 0px; line-height: 0.5">LeafIT</h1>
+              </a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right" style="padding-right: 5%">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
 
-  <%= favicon_link_tag('seeds.ico') %>
-</head>
-
-<body style="background-color: #D4D5D5;">
-
-    <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
-      <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-        
-          <li ><a class="navbar-brand" href="/"><h1 class="logo">Leaf IT</h1></a></li>
-          <li class="tabpos <%= 'active' if params[:controller] == 'welcome' %>">   <a href="/"><p>Inicio</p></a></li>
-          <li class="tabpos <%= 'active' if params[:controller] == 'us' %>">        <a href="/us"><p>Sobre Nosotros</p></a></li>
-          <li class="tabpos <%= 'active' if params[:controller] == 'project' %>">  <a href="/project"><p>Producto</p></a></li>
-          <li class="tabpos <%= 'active' if params[:controller] == 'news' %>">     <a href="/news"><p>Noticias</p></a></li>
-          <li class="tabpos <%= 'active' if params[:controller] == 'contact' %>">  <a href="/contact"><p>Contacto</p></a></li>
-        </ul>
-      </div>
-   </nav>
-
-v>
 
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+    </body>
 
-<div class = "sponsor">
-<h2 class="beauty" style="color:#fff; margin-left: 50px;">Auspician:</h2>
-<ul role ="tablist">
-<a href="http://www.piea.usm.cl/"><%= image_tag "piea-optimized.png",{size: "145x60", class: "margen"} %> </a>
-<a href="http://www.exalumnos.utfsm.cl/"><%= image_tag "aexa-optimized.png",{size: "170x60", class: "margen"} %></a>
-<a href="http://www.feriadesoftware.cl/"><%= image_tag "fesw-optimized.png",{size: "170x60", class: "margen"} %></a>
-<a href="http://www.usm.cl/"><%= image_tag "usm-optimized.png",{size: "120x60", class: "margen"} %></a>
-<a href="http://www.inf.utfsm.cl/"><%= image_tag "di-optimized.png",{size: "120x60", class: "margen"} %>  </a>
-</ul>
+    <div class = "sponsor">
+    <h2 class="beauty" style="color:#fff; margin-left: 50px;">Auspician:</h2>
+    <ul role ="tablist">
+    <a href="http://www.piea.usm.cl/"><%= image_tag "piea-optimized.png",{size: "145x60", class: "margen"} %> </a>
+    <a href="http://www.exalumnos.utfsm.cl/"><%= image_tag "aexa-optimized.png",{size: "170x60", class: "margen"} %></a>
+    <a href="http://www.feriadesoftware.cl/"><%= image_tag "fesw-optimized.png",{size: "170x60", class: "margen"} %></a>
+    <a href="http://www.usm.cl/"><%= image_tag "usm-optimized.png",{size: "120x60", class: "margen"} %></a>
+    <a href="http://www.inf.utfsm.cl/"><%= image_tag "di-optimized.png",{size: "120x60", class: "margen"} %>  </a>
+    </ul>
 
-</div>
+    </div>
 
 </html>
 

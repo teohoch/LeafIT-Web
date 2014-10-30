@@ -10,11 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require bootstrap
+//= require jquery
+//= require bootstrap-sprockets
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
 //= require turbolinks
 //= require social-share-button
-//= require_tree .
+////= require_tree .
 
 

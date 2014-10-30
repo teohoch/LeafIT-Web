@@ -4,6 +4,9 @@
     <head>
         <meta charset="UTF-8">
       <% content_for :title, " Nuestro Producto" %>
+      <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
+
+      <%= javascript_include_tag "application", params[:controller] %>
     </head>
     <body>
         <div class = "container">

@@ -20,8 +20,8 @@ Rails.application.routes.draw do
 
   match '/newcontact' => 'contact#send_contact', via: [:get, :post], :as => :send_contact
 
-  get "/facebook" => redirect("http://example.com/blog")
-  get "/twitter" => redirect("http://example.com/blog")
+  get "/facebook" => redirect("https://www.facebook.com/Seeds.LeafIT")
+  get "/twitter" => redirect("https://twitter.com/Seeds_LeafIT")
 
   get "/piea" => redirect("http://www.piea.usm.cl/es")
   get "/aexa" => redirect("http://www.exalumnos.utfsm.cl/")

@@ -40,7 +40,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'email_validator'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.0'
 
 gem 'autoprefixer-rails'
 gem 'grabbit'

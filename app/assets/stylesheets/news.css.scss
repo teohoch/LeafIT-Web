@@ -9,13 +9,8 @@
 }
 
 
-.img-responsive{
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
-button {
+form > button {
   width: 100px;
   height: 23px;
   margin: 0;
@@ -23,10 +18,10 @@ button {
   background: #86C67C;
   border: 0;
   font-family: 'Lato', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 46px;
+  font-size: 100%;
+  line-height: 100%;
   color: #fff;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   text-shadow: 1px 1px 1px rgba(0,0,0,.3);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
