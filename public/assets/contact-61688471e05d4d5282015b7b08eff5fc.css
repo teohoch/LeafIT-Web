@@ -1,0 +1,118 @@
+/* line 4, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact {
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* line 9, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 40px;
+  text-shadow: 1px 2px 1px #fff;
+}
+
+/* line 17, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* line 23, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form {
+  margin-top: 24px;
+  margin-left: 50px;
+}
+
+/* line 28, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form input {
+  width: 310px;
+  height: 46px;
+  margin: 0;
+  padding: 0 10px;
+  margin-left: 15px;
+  background: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #888;
+  border-radius: 5px;
+  border: solid 2px #9d9d9d;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+          transition: box-shadow 0.3s, border 0.3s;
+}
+
+/* line 43, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form textarea {
+  width: 310px;
+  height: 150px;
+  margin: 1;
+  padding: 0 10px;
+  margin-left: 15px;
+  background: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #888;
+  border-radius: 5px;
+  border: solid 2px #9d9d9d;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+          transition: box-shadow 0.3s, border 0.3s;
+}
+
+/* line 59, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form input:focus {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* line 65, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form input:-moz-placeholder {
+  color: #888;
+}
+
+/* line 66, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form input:-ms-input-placeholder {
+  color: #888;
+}
+
+/* line 67, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form input::-webkit-input-placeholder {
+  color: #888;
+}
+
+/* line 69, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form button {
+  width: 250px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  background: #86C67C;
+  border: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  margin-left: 15px;
+}
+
+/* line 95, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form button:hover {
+  background: #72ab68;
+  color: #fff;
+}
+
+/* line 100, /home/teohoch/LeafIT-Web/app/assets/stylesheets/contact.css.scss */
+.contact form button:active {
+  background: #406a38;
+  color: #fff;
+}

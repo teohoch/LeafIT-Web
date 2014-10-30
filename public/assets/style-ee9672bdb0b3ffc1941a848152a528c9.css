@@ -1,0 +1,48 @@
+/* line 2, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+body {
+  text-align: left;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #555;
+  font-weight: 400;
+  border-top: 2px solid #86C67C;
+  padding-top: 0px;
+}
+
+/* line 11, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+.tabpos {
+  margin-top: 30px;
+}
+
+/* line 15, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+.tabpos1 {
+  margin-top: 40px;
+}
+
+/* line 19, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+.sponsor {
+  min-height: 20px;
+  margin-top: -10px;
+  position: relative;
+  padding: 20px 0px;
+  background-color: #1B772C;
+}
+
+/* line 27, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+h1.logo {
+  font-family: 'Lobster';
+}
+
+/* line 31, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+.margen {
+  margin-left: 40px;
+  margin-right-right: 40px;
+}
+
+@media (max-width: 900px) {
+  /* line 37, /home/teohoch/LeafIT-Web/app/assets/stylesheets/style.css.scss */
+  body {
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

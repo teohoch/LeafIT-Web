@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+
+  get 'contact'=> 'contact#show'
+
   get 'project' => 'project#show'
 
   get 'news' => 'news#show'
@@ -14,6 +17,20 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   match '/newsubscriber' => 'welcome#new_subscriber', via: [:get, :post], :as => :new_subscriber
   match '/redirecting' => 'welcome#redirecting', via: [:get, :post], :as => :redirecting
+
+  match '/newcontact' => 'contact#send_contact', via: [:get, :post], :as => :send_contact
+
+  get "/facebook" => redirect("http://example.com/blog")
+  get "/twitter" => redirect("http://example.com/blog")
+
+  get "/piea" => redirect("http://www.piea.usm.cl/es")
+  get "/aexa" => redirect("http://www.exalumnos.utfsm.cl/")
+  get "/feria" => redirect("http://www.feriadesoftware.cl/")
+  get "/utfsm" => redirect("http://www.utfsm.cl/")
+  get "/di" => redirect("http://www.inf.utfsm.cl/")
+
+
+  #match '/newcontact' => 'contact#send', via: [:get, :post], :as => :new_contact
 
   resources :welcome, only: [:index]
   root 'welcome#index'

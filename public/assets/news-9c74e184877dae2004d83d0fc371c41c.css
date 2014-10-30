@@ -1,0 +1,55 @@
+/* line 4, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+.team {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  height: 500px;
+}
+
+/* line 11, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+div.info {
+  background-color: #e0e3d7;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* line 17, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+img.img-responsive {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 23, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+button {
+  width: 100px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+  background: #86C67C;
+  border: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+}
+
+/* line 48, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+button:hover {
+  background: #72ab68;
+  color: #fff;
+}
+
+/* line 53, /home/teohoch/LeafIT-Web/app/assets/stylesheets/news.css.scss */
+button:active {
+  background: #406a38;
+  color: #fff;
+}

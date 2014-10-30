@@ -1,0 +1,1 @@
+jQuery(document).on("ready page:change",function(){$(".te").backstretch(["/assets/backgrounds/3-ce68bdc48a326f2fb860af6fd65b0405.jpg"],{duration:3e3,fade:750}),$(".social a.facebook").tooltip(),$(".social a.twitter").tooltip(),$(".social a.dribbble").tooltip(),$(".social a.googleplus").tooltip(),$(".success-message").hide(),$(".error-message").hide()});

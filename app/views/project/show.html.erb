@@ -1,50 +1,107 @@
 <!doctype html>
-<html>
-<head>
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-  <meta charset="UTF-8">
-  <% content_for :title, "¡Conocenos!" %>
-</head>
-<body>
-<div class = "container">
-  <div class="row">
-    <div class="col-sm-2">
-      <%= image_tag 'Seeds.png',:class => 'img-responsive' %>
-    </div>
-    <div class="col-sm-2">
-      <br/><br/><br/>
 
-      <h4 class="beauty">Nuestro Producto</h4>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-8 info">
-      <p>
-        Seeds es una aplicación para dispositivos Android que ayudará a los usuarios nuevos en el mundo de la jardineria
-        a superar esa barrera de ingreso y a los usuarios experimentados a mantenerse y facilitar sus tareas diarias en este
-        rubro como regados y cuidados básicos.</br><br/>
-        ¿Necesitas saber sobre tus cultivos? No te preocupes, Seeds cuenta con una enciclopedia mediante la cual se
-        encontrará la informacion relevante
-        sobre cada especie. </br><br/>
-        ¿Tienes tu metodo de cuidado? Comparte tu experiencia con el resto de los usuarios, valora las experiencias de los
-        demas usuarios. Todo esto de forma social y facil. <br/><br/>
-        Por si fuera poco, te indicamos las tiendas cercanas en las cuales puedes comprar semillas o articulos de jardineria, y te damos un espacio a
-        todos los vendedores independientes de públicar sus anuncios de venta.
-      </p>
-    </div>
-    <div class="col-sm-4">
-      <%= image_tag "loginApp.png",{class: "img-responsive"} %>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+      <% content_for :title, " Nuestro Producto" %>
+    </head>
+    <body>
+        <div class = "container">
 
-    </div>
-  </div>
-  <hr/>
+          <div class="row">
+            <div class="col-sm-2">
+              <%= image_tag 'Seeds.png',:class => 'img-responsive' %>
+            </div>
+            <div class="col-sm-4">
+              <br/><br/><br/>
+              <h2 class="beauty">Nuestro Producto</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <p class="info">
+                Seeds es una aplicación para dispositivos Android que ayudará a los usuarios nuevos en el mundo de la jardinería
+                a superar esa barrera de ingreso y a los usuarios experimentados a mantenerse y facilitar sus tareas diarias en este
+                rubro como regados y cuidados básicos.</br><br/>
+                ¿Necesitas saber sobre tus cultivos? No te preocupes, Seeds cuenta con una enciclopedia mediante la cual se
+                encontrará la información relevante
+                sobre cada especie. </br><br/>
+                ¿Tienes tu método de cuidado? Comparte tu experiencia con el resto de los usuarios, valora las experiencias de los
+                demás usuarios. Todo esto de forma social y fácil. <br/><br/>
+                Por si fuera poco, te indicamos las tiendas cercanas en las cuales puedes comprar semillas o artículos de jardinería, y te damos un espacio a
+                todos los vendedores independientes de publicar sus anuncios de venta.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <%= image_tag "loginApp.png",{class: "img-responsive"} %>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 class="beauty">Algunas Características</h4>
+              <ul class="info-list">
+                <li><p>Con Seeds podrás saber cuando regar y cuidar tus plantas mediante notificaciones.</p></li>
+                <li><p>Tendrás a la mano la información de la especie que poseas y podrás compartir socialmente, por medio de experiencias, con quienes posean mas o menos experiencia.
+                con la misma especie</p></li>
+                <li><p>Podrás ver, gracias a la geolocalización, las tiendas mas cercanas de jardinería, físicas y online. </p></li>
+                <li><p>Podrás vender tus propias plantas, semillas o artículos del rubro a través de anuncios, los cuales pueden ser vistos por todos.</p></li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 class="beauty">Requerimientos</h4>
+            <ul class="info-list">
+              <li><p>Dispositivo Con sistema operativo Android 4.0 o superior</p></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+              <h4 class="beauty">Lanzamiento</h4>
+              <p class="info">Seeds sera mostrado a la comunidad, el día de su lanzamiento, el 14 de Noviembre del 2014, en la <a href="http://www.feriadesoftware.cl">Feria de Software</a>, organizada por la
+                Universidad Técnica Federico Santa Maria, en el Campus San Joaquín. </p>
+            </div>
+        </div>
+
+        <div class="coming-soon">
+          <div class="inner-bg">
+            <div class="container">
+              <div class="row">
+                <div class="span12">
+                  <h2> ¡Visítanos en la Feria de Software!</h2>
+                  <h3 class="beauty">Días para El lanzamiento de Seeds</h3>
+
+                  <div class="timer">
+                    <div class="days-wrapper">
+                      <span class="days"></span> <br>Dias
+                    </div>
+                    <div class="hours-wrapper">
+                      <span class="hours"></span> <br>Horas
+                    </div>
+                    <div class="minutes-wrapper">
+                      <span class="minutes"></span> <br>Minutos
+                    </div>
+                    <div class="seconds-wrapper">
+                      <span class="seconds"></span> <br>Segundos
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
+        </div>
+        </div>
+        </div>
 
 
-
-</div>
-
-
-
-</body>
+    </body>
+</html>

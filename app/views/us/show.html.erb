@@ -1,120 +1,123 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <% content_for :title, "¡Conocenos!" %>
-</head>
-<body>
+    <head>
+      <meta charset="UTF-8">
+      <% content_for :title, " Sobre Nosotros" %>
+    </head>
+    <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 class="page-header beauty">Quiénes somos</h1>
+              <p class="info">Somos un grupo de estudiantes de la carrera de Ingeniería civil Informática de la Universidad Técnica Federico Santa Maria. Actualmente
+              participantes de la prestigiosa Feria de Software, organizada por el Departamento de Informática de la universidad. <br>
+              Es en este contexto donde inicia Leaf IT, compuesta por un equipo integro en las distintas areas competentes al cumplimiento de nuestros objetivos.</p>
+            </div>
+          </div>
 
-<div class="team">
-</div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h3 class ="beauty" >Visión</h3>
+              <p class="info">Nuestra visión es construir software de calidad, cuyo influencia se vea reflejada en la calidad de vida de las personas y el ambiente,
+                contribuyendo así a la sociedad en la que Leaf IT esta inmersa. </p>
+            </div>
 
-
-<div class="container">
-
-  <!-- Page Heading -->
-  <div class="row">
-    <div class="col-xs-12">
-      <h1 class="page-header">Quienes somos</h1>
-      <p>Somos un grupo de estudiantes de la carrera de Ingeniería civil Informática de la Universidad Técnica Federico Santa Maria. Actualmente
-      participantes de la prestigiosa Feria de Software, organizada por el Departamento de Informática de la universidad. <br> 
-      Es en este contexto donde inicia Leaf IT, compuesta por un equipo integro en las distintas areas competentes al cumplimiento de nuestros objetivos. </p>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-xs-12">
-      <h1 class="page-header">Visión</h1>
-      <p>Nuestra visión es construir software de calidad, cuyo influencia se vea reflejada en la calidad de vida de las personas y el ambiente, 
-      contribuyendo así a la sociedad en la que Leaf IT esta inmersa. </p>
-    </div>
-  </div>
+            <div class="col-sm-6">
+              <h3 class ="beauty" >Misión</h3>
+              <p class="info">Conformar un equipo de trabajo unido, comprometido y preocupado tanto de las tecnologias, como también de las problemáticas actuales, y a partir de estas ofrecer productos que resuelvan los problemas y ofrezcan experiencias de uso intuitivas. </p>
+            </div>
+          </div>
 
 
-   <div class="row">
-    <div class="col-xs-12">
-      <h1 class="page-header">Misión</h1>
-      <p>Conformar un equipo de trabajo unido, comprometido y preocupado tanto de las tecnologias, como también de las problemáticas actuales, y a partir de estas ofrecer productos que resuelvan los problemas y ofrezcan experiencias de uso intuitivas.</p>
-    </div>
-    </div>
+          <!-- /.row -->
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="page-header beauty">El Equipo:</h1>
+            </div>
+          </div>
+
+          <div class="row info anti-row">
+            <div class="col-sm-2">
+              <%= image_tag("team/teo.jpg",{:class => "img-responsive "}) %>
+            </div>
+            <div class="col-sm-10">
+              <h3>Teodoro Hochfärber</h3>
+              <h4 class="beauty">Líder de Equipo</h4>
+              <p>Estudiante de Ing Civil Informática, cuarto año, con experiencia en desarrollo de software y gestion de proyectos.
+                Participacion como investigador asociado en LIRAE-UTFSM.<br>
+                Experiencia en Python, Java, C#, C, C++, Ruby <br/>
+                Correo: <%= mail_to 'Teodoro.Hochfarber@LeafIT.cl' %></p>
+            </div>
+          </div>
+
+              <hr>
+
+          <div class="row info anti-row">
+            <div class="col-sm-2">
+                <%= image_tag("team/ariel.jpg",{:class => "img-responsive"}) %>
+            </div>
+            <div class="col-sm-10">
+              <h3>Ariel Sanhueza</h3>
+              <h4 class="beauty">Especialista de Sistemas</h4>
+              <p>Estudiante de Ing Civil Informática, cuarto año, Experiencia en manejo y desarrollo de sistemas computacionales, lenguajes de programación (C/C++/Python).
+              Participación como ayudante, tanto en cátedra como investigación.<br/>
+                Correo: <%= mail_to 'Ariel.Sanhueza@LeafIT.cl' %>
+              </p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row info anti-row">
+            <div class="col-sm-2">
+              <%= image_tag("team/diego.jpg",{:class => "img-responsive"}) %>
+            </div>
+            <div class="col-sm-10">
+              <h3>Diego Perez</h3>
+              <h4 class="beauty">Líder Programador</h4>
+              <p>Estudiante de Ing Civil Informática, cuarto año, con vasto conocimiento de lenguajes de programación
+                (JavaScript, Java, Python, HTML) y las ultimas tecnologías existentes con respecto a la optimización de procesos.<br/>
+                Correo: <%= mail_to 'Diego.Perez@LeafIT.cl' %></p>
+            </div>
+          </div>
+
+          <hr>
+          <div class="row info anti-row">
+            <div class="col-sm-2">
+              <%= image_tag("team/axel.jpg",{:class => "img-responsive"}) %>
+            </div>
+            <div class="col-sm-10">
+              <h3>Axel Van Simonsen</h3>
+              <h4 class="beauty">Comunicaciones y diseño web</h4>
+              <p>Estudiante Ing Civil Informática, cuarto año, con conocimientos en gestión de proyectos de software,
+                lenguajes de programación (Python, C++, C, Ruby, HTML, CSS), arquitectura de software y diseño web.
+                Experiencia en el área de la comunicación y el desarrollo de documentos de proyectos de software. <br/>
+                Correo: <%= mail_to 'Axel.VanSimonsen@LeafIT.cl' %></p>
+            </div>
+          </div>
+
+          <hr>
+          <div class="row info anti-row">
+            <div class="col-sm-2">
+              <%= image_tag("team/tomas.jpg",{:class => "img-responsive"}) %>
+            </div>
+            <div class="col-sm-10">
+              <h3>Tomas Gonzalez</h3>
+              <h4 class="beauty">Diseño Gráfico</h4>
+              <p>Estudiante Ing Civil Informática, cuarto año, con experiencia en diseño gráfico y desarrollo de front-end. Conocimiento y experiencia
+              en lenguajes programación variados (C, C++, Python, CSS).<br/>
+                Correo: <%= mail_to 'Tomas.Gonzalez@LeafIT.cl' %></p>
+            </div>
+          </div>
 
 
-  <!-- /.row -->
-  <div class="row">
-    <div class="col-xs-12">
-      <h1 class="page-header">El Equipo:</h1>
-    </div>
-  </div>
 
 
-  <div class="row info">
-    <div class="col-sm-2">
-      <%= image_tag("team/teo.jpg",{:class => "img-responsive "}) %>
-    </div>
-    <div class="col-sm-8">
-      <h3>Teodoro Hochfärber</h3>
-      <h4>Líder de Equipo</h4>
-      <p>Estudiante de Ing Civil Informática, cuarto año, con experiencia en desarrollo de software y gestion de proyectos.
-        Participacion como investigador asociado en LIRAE-UTFSM.</p>
-    </div>
-  </div>
+        </div>
+        <div class="container-fluid">
+          <%= image_tag("team/equipo-progresive.jpg",{:class => "img-responsive"}) %>
+        </div>
+        <hr>
 
-      <hr>
-
-  <div class="row info">
-    <div class="col-sm-2">
-        <%= image_tag("team/ariel.jpg",{:class => "img-responsive"}) %>
-    </div>
-    <div class="col-sm-8">
-      <h3>Ariel Sanhueza</h3>
-      <h4>Especialista de Sistemas</h4>
-      <p>Estudiante de Ing Civil Informática, cuarto año, con experiencia en servidores y conocimiento en lenguajes de programación.
-      Participación como ayudante, tanto en cátedra como investigación.</p>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="row info">
-    <div class="col-sm-2">
-      <%= image_tag("team/diego.jpg",{:class => "img-responsive"}) %>
-    </div>
-    <div class="col-sm-8">
-      <h3>Diego Perez</h3>
-      <h4>Líder Programador</h4>
-      <p>Estudiante de Ing Civil Informática, cuarto año, con vasto conocimiento de lenguajes de programación y las ultimas tecnologías
-      existentes con respecto a la optimización de procesos.</p>
-    </div>
-  </div>
-
-  <hr>
-  <div class="row info">
-    <div class="col-sm-2">
-      <%= image_tag("team/axel.jpg",{:class => "img-responsive"}) %>
-    </div>
-    <div class="col-sm-8">
-      <h3>Axel Van Simonsen</h3>
-      <h4>Comunicaciones y diseño web</h4>
-      <p>Estudiante Ing Civil Informática, cuarto año, con conocimientos en gestión de proyectos de software, arquitectura de software y diseño web. Experiencia en el área de la comunicación y el desarrollo de documentos de software. </p>
-    </div>
-  </div>
-
-  <hr>
-  <div class="row info">
-    <div class="col-sm-2">
-      <%= image_tag("team/tomas.jpg",{:class => "img-responsive"}) %>
-    </div>
-    <div class="col-sm-8">
-      <h3>Tomas Gonzalez</h3>
-      <h4>Diseño Grafico</h4>
-      <p>Estudiante Ing Civil Informática, cuarto año, con experiencia en diseño gráfico y desarrollo de front-end. Conocimiento y experiencia
-      en lenguajes programación variados.</p>
-    </div>
-    </div>
-
-  <hr>
-
-</div>
-
-</body>
+    </body>
 </html>
