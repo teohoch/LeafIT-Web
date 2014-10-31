@@ -17,7 +17,7 @@
      </div>
    </div>
    <br/>
-   <div class="row info anti-row vertical-align">
+   <div class="row info anti-row">
 
        <div class="col-sm-2">
          <a href=<%= @mercurio %>>
@@ -30,7 +30,6 @@
          </a>
          <h4 class="beauty">Reportaje en El Mercurio de Santiago </h4>
          <p><i>Viernes 8 de Agosto 2014</i></p>
-
          <p>Recibimos una llamada del diario El Mercurio, luego del cual recibimos una entrevista por parte de ellos, la cual pueden ver
            en este artículo. Como equipo estamos muy contentos, ya que estas instancias le dan publicidad a nuestro producto y nos motiva
            a trabajar mas para traerte la mejor aplicación de jardinería. ¡Espéranos!</p>
@@ -46,17 +45,17 @@
 
    </div>
    <hr/>
-   <div class="row info anti-row vertical-align">
-     <div class="col-sm-2 v-center">
+   <div class="row info anti-row">
+     <div class="col-sm-2 ">
        <a href="<%= @nota %>">
-         <%= image_tag('team/equipo.jpg',{:class => 'img-responsive'}) %>
+         <%= image_tag('team/equipo.jpg',{:class => 'img-responsive '}) %>
        </a>
      </div>
      <div class="col-sm-10">
       <a href="<%= @nota %>">
         <h2>Estudiantes USM desarrollan aplicación móvil que facilita el cuidado de plantas y vegetales</h2>
-        <h4 class="beauty">Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h4>
       </a>
+       <h4 class="beauty">Reportaje en DGC de Universidad Tecnica Federico Santa Maria </h4>
        <p><i>Miercoles 30 de Julio 2014</i></p>
        <p>Tenemos el agrado de contarles que nos han entrevistado desde el area de comunicaciones de la Universidad Santa Maria para realizar una nota sobre nuestro proyecto. Léela y entérate de lo que queremos y lo que será Seeds!</p>
        <%= form_tag(:redirecting, :method=>'post') do %>
