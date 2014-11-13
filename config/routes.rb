@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'winner' => 'winner#index'
+
   get 'contact'=> 'contact#show'
 
   get 'project' => 'project#show'

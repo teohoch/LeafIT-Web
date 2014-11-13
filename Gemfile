@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
+
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 # Use mysql as the database for Active Record
-gem 'mysql2'
+#gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -48,7 +51,7 @@ gem 'grabbit'
 gem 'social-share-button'
 gem 'sprockets-image_compressor'
 
-#group :development do
- # gem 'better_errors'
- # gem 'binding_of_caller'
-#end
+group :development do
+   gem 'better_errors'
+   gem 'binding_of_caller'
+end
